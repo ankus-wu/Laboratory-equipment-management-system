@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Login from './components/login'
-import Manage from './components/manage'
+import Home from './components/home'
 Vue.use(Router)
 
 export default new Router({
@@ -14,9 +14,9 @@ export default new Router({
     component: Login
   },
   {
-      path: '/manage',
-      name: 'manage',
-      component: Manage
+      path: '/home',
+      name: 'home',
+      component: Home
   },
 ]
 })
